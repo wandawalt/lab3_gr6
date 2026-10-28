@@ -114,7 +114,7 @@ int main()
         else {
 			cin.ignore();
 		}
-         */
+         
 //zadanie 7
     int x = 0;
     while (x != 200) {
@@ -124,9 +124,20 @@ int main()
         x++;
     }
     cout << endl << endl;
-    
+    */
 //zadanie 8
- 
+    int n;
+	cin >> n;
+    for (int i = 2; i < n; i++) {
+        if (n % i == 0) {
+            cout << "posiada dzielnik" << endl;
+            break;
+        }
+        else if (i == n - 1) {
+            cout << "nie posiada dzielnika" << endl;
+		}
+	}
+
 
     
 
